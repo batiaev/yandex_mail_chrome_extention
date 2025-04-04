@@ -15,8 +15,7 @@ A Chrome extension that checks for new Yandex Mail emails and provides quick acc
 1. Clone or download this repository
 2. Create an `icons` directory and add icon files:
    - icon16.png (16x16 pixels)
-   - icon48.png (48x48 pixels)
-   - icon128.png (128x128 pixels)
+   - icon32.png (32x32 pixels)
 3. Open Chrome and go to `chrome://extensions/`
 4. Enable "Developer mode" in the top right
 5. Click "Load unpacked" and select the extension directory
