@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex Mail Checker",
+  "version": "1.0",
+  "description": "Checks for new emails in Yandex Mail and provides a quick way to open your inbox",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "notifications",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://mail.yandex.ru/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

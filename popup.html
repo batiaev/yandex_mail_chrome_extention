@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yandex Mail Checker</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="statusMessage" class="status-message">
+      Please log in to Yandex Mail in your browser
+    </div>
+    
+    <div id="mailContent" class="mail-content">
+      <div class="header">
+        <h1>Yandex Mail</h1>
+      </div>
+      
+      <div class="mail-info">
+        <div class="unread-count">
+          <span>Unread emails: </span>
+          <span id="unreadCount">
+            <span class="count-value">0</span>
+            <span class="loading-spinner" style="display: none;"></span>
+          </span>
+        </div>
+        <div class="last-update" id="lastUpdate">
+          Last checked: <span class="loading-text">Loading...</span>
+        </div>
+      </div>
+      
+      <div class="actions">
+        <button id="openMail" class="open-mail-button">Open Yandex Mail</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html> 
